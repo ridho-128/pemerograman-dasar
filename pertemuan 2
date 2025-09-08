@@ -1,0 +1,253 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNQkkrAwu2LFQfnIqUmbTjq",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ridho-128/pemerograman-dasar/blob/main/pertemuan%202\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 5,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "x6jXwFFAYKoF",
+        "outputId": "327a3964-44cc-47c9-a27e-1953ebea0a7d"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Nama saya pablo cursao\n"
+          ]
+        }
+      ],
+      "source": [
+        "name = \"pablo cursao\"\n",
+        "print(\"Nama saya {}\".format(name))\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "multi_line = \"\"\"lek! ada seratus?, pakek lu!.\"\"\"\n",
+        "print(multi_line)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ICVfN_zTZxsB",
+        "outputId": "05fb48f6-84d3-4681-cac0-e0f65bf7a8e3"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "lek! ada seratus?, pakek lu!.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 'polibatam'\n",
+        "print(type(x))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9dVIOoQpgzOS",
+        "outputId": "63016d59-4f48-41e3-e559-29fd3af7d95e"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'str'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = True\n",
+        "print(type(x))\n",
+        "\n",
+        "x = False\n",
+        "print(type(x))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bxpfJiOwmIcn",
+        "outputId": "709200b5-de96-45ac-d60f-bf1426b11893"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'bool'>\n",
+            "<class 'bool'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 'polibatam'\n",
+        "print(x[0])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8Kwh0Cnymmtf",
+        "outputId": "1a50c70e-c394-4830-b385-2ae4557d83cf"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "p\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 'polibatam'\n",
+        "print(x[2:])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SvOPz7_FnAN2",
+        "outputId": "a6a55cd6-5753-4a6e-86cf-e4cc9c0c8d8d"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "libatam\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = [1, 2.2, 'plibatam']\n",
+        "print(type(x))\n",
+        "\n",
+        "x = [1, 2.2, 'Dicoding']\n",
+        "print(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "p4sxEfbTnhMf",
+        "outputId": "9da8987d-00d0-411f-e28c-757370cf2444"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'list'>\n",
+            "[1, 2.2, 'Dicoding']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Indexing list"
+      ],
+      "metadata": {
+        "id": "r178lmacqknW"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = [1, 'polibatam', True, 1.0]\n",
+        "print(x[2])\n",
+        "\n",
+        "x = [1, 2.2, 'polibatam']\n",
+        "x [0] = 'indonesia'\n",
+        "print(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BJzOZqv6opMu",
+        "outputId": "56ee7bd9-6471-492e-8390-a52ca54b3585"
+      },
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n",
+            "['indonesia', 2.2, 'polibatam']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "g8wK-FjdqKS2"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
